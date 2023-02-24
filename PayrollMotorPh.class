@@ -1,0 +1,16 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.payrollmotorph;
+
+/**
+ *
+ * @author Oem user
+ */
+public class PayrollMotorPh {
+
+    public static void main(String[] args) {
+        System.out.println("Welcome to MotorPh");
+    }
+}

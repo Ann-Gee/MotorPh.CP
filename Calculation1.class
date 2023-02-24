@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.payrollmotorph;
+
+/**
+ *
+ * @author Oem user
+ */
+import java.util.Scanner;
+class Calculation1 {
+
+    public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in); 
+        String userWHs;
+        System.out.println("Enter Worked Hours");
+        
+        userWHs = myObj.nextLine();
+        System.out.println("Worked Hours: " + userWHs);
+    }
+}
