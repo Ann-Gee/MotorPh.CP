@@ -9,12 +9,11 @@ package com.mycompany.payrollmotorph;
  * @author Oem user
  */
 import java.util.Scanner;
-import java.text.DecimalFormat;
 
 public class Calculation1 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    DecimalFormat df = new DecimalFormat("#.##");
+    
     System.out.print("Enter Employee Username: ");
     String employee = input.nextLine();
 
@@ -39,7 +38,7 @@ public class Calculation1 {
                 }
 
                 System.out.println("Employee Name: " + name);
-                System.out.println("Gross Pay: P" + df.format(grossPay));
+                System.out.println("Gross Pay: P" + grossPay);
                 } else {
                 System.out.println("Access denied. Invalid username or password.");
     }
