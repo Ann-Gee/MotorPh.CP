@@ -1,12 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-package com.mycompany.payrollmotorph;
 
-/**
- *
- * @author Oem user
- */
 import java.util.Scanner;
 
 public class PayrollMotorPh {
@@ -27,7 +19,7 @@ public class PayrollMotorPh {
         String username = "user";
         String password = "pass123";
 
-        // Loop until correct login credentials are entered
+        // Loop until reached correct login credentials
         while (true) {
 
             // Prompt user to enter username and password
@@ -45,7 +37,7 @@ public class PayrollMotorPh {
                 while (true) {
                     System.out.println("Tab Menu Options:");
                     System.out.println("(1) Inventory Tab ");
-                    System.out.println("(2) Payroll Tab");
+                    System.out.println("(2) Employee's Profile Tab");
                     System.out.println("(3) PaySlip Tab");
                     System.out.println("(4) Exit");
 
@@ -59,7 +51,7 @@ public class PayrollMotorPh {
                             System.out.println("Inventory Tab selected (not yet available)");
                             break;
                         case 2:
-                            System.out.println("Payroll Tab selected");
+                            System.out.println("Employee's Profile Tab selected");
                             break;
                         case 3:
                             System.out.println("PaySlip Tab selected");
